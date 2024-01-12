@@ -4,7 +4,7 @@ This is simple csv file uploader and view data present in csv data in tabular fo
 This API made by using HTML, CSS, Javascript, NodeJs, MongoDB, EJs.
 
 ## How to use?
-Go to  http://localhost:1212/  <br><br>
+Go to  http://localhost:8000/  <br><br>
 After that upload csv file by clicking on upload button.<br><br>
 Below to that you are look up your file information in tabular format.<br><br>
 you can delete any file whenever you want.
