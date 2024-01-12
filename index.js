@@ -5,7 +5,7 @@ const expressLayout     = require('express-ejs-layouts');
 const db                = require('./config/mongoose.js');
 
 // defining port number
-const port= process.env.port || 1212;
+const port= process.env.port || 8000;
 
 // added a parser
 app.use(express.urlencoded({extended: true}));
