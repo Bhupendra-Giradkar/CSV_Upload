@@ -1,7 +1,7 @@
 # CSV Upload
 This is simple csv file uploader and view data present in csv data in tabular form.
 <br><br>
-This API made by using HTML, CSS, Javascript, NodeJs, MongoDB, EJs.
+This API made by using HTML, CSS, Javascript, Node.js, Express.js MongoDB, EJs.
 
 ## How to use?
 Go to  http://localhost:8000/  <br><br>
