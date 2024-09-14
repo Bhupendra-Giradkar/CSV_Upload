@@ -1,18 +1,25 @@
-# CSV Upload
-This is simple csv file uploader and view data present in csv data in tabular form.
-<br><br>
-This API made by using HTML, CSS, Javascript, Node.js, Express.js MongoDB, EJs, Multer.
+# CSV File Uploader and Viewer
+This application allows users to upload a CSV file and view the data in a tabular format.
 
-## How to use?
-Go to  http://localhost:8000/  <br><br>
-After that upload csv file by clicking on upload button.<br><br>
-Below to that you are look up your file information in tabular format.<br><br>
-you can delete any file whenever you want.
+## Tech Stack
+- ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) : For building the frontend user interface.
+- ![Node.js](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
+): Server-side JavaScript runtime environment.
+- ![Express.js](https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white
+): Backend framework for handling server logic and routing.
+- ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white): Database to store uploaded file metadata (if needed).
+- `EJS` : Template engine for rendering dynamic HTML pages.
+- `Multer` : Middleware for handling file uploads (CSV files).
+
+## Features
+- CSV Upload: Users can upload CSV files.
+- Data Display: The uploaded CSV data is rendered in a user-friendly table format.
 
 ## Home Page
 <img width="956" alt="image" src="https://github.com/Bhupendra-Giradkar/CSV_Upload/assets/149242441/63b52fbc-66ed-4023-9403-59cb97a84de3">
 
-## Author:
-Bhupendra Giradkar
-
-
+## How to Install
+1. Clone repository [Click Here](https://github.com/Bhupendra-Giradkar/CSV_Upload)
+2. Install required dependencies `npm install`;
+3. Start the development server: `node index.js`
+4. Open your browser and go to `http://localhost:8000`.
