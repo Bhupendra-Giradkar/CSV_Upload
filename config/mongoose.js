@@ -4,8 +4,8 @@ const mongoose = require('mongoose');
 // connnect to databases
 
 
-const DB = "mongodb://localhost:27017/CSVUpload";
-    mongoose
+const DB = "mongodb+srv://bhupendra_giradkar:9JvdXxSriZ8aKvMp@csvupload.q3bxj.mongodb.net/";
+    mongoose 
     .connect(DB)
     .then(() => {
         console.log("Connection successful!");
